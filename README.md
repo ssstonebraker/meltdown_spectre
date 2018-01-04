@@ -1,14 +1,18 @@
 # meltdown_specre
 
-# Thanks
-
-Thank you to https://gist.github.com/ErikAugust/724d4a969fb2c6ae1bbd7b2a9e3d4bb6 for this code.  I modified it to work on ubuntu-xenial-16.04-amd64-server-20170721 (ami-cd0f5cb6)
+# Meltdown
+CVE-2017-5754 is the official reference to Meltdown. 
+https://meltdownattack.com/meltdown.pdf
 
 # Specre
+CVE-2017-5753 and CVE-2017-5715 are the official references to Spectre.
+https://spectreattack.com/spectre.pdf
 
 To Compile on ubuntu 16.04
 
     # gcc spectre.c -o specre
+ 
+Thank you to https://gist.github.com/ErikAugust/724d4a969fb2c6ae1bbd7b2a9e3d4bb6 for this code.  I modified it to work on ubuntu-xenial-16.04-amd64-server-20170721 (ami-cd0f5cb6)
     
 # Sample Output
 
