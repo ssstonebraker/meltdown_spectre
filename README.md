@@ -10,13 +10,13 @@ https://spectreattack.com/spectre.pdf
 
 To Compile on ubuntu 16.04
 
-    # gcc spectre.c -o specre
+    # gcc spectre.c -o spectre
  
 Thank you to https://gist.github.com/ErikAugust/724d4a969fb2c6ae1bbd7b2a9e3d4bb6 for this code.  I modified it to work on ubuntu-xenial-16.04-amd64-server-20170721 (ami-cd0f5cb6)
     
 # Sample Output
 
-    root@brakerubuntu:/tmp/src]# ./specre
+    root@brakerubuntu:/tmp/src]# ./spectre
     Reading 40 bytes:
     Reading at malicious_x = 0xffffffffffdfebb8... Success: 0x54=’T’ score=2
     Reading at malicious_x = 0xffffffffffdfebb9... Success: 0x68=’h’ score=2
