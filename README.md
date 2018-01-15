@@ -1,4 +1,4 @@
-# meltdown_specre
+# meltdown_spectre
 
 # Meltdown
 CVE-2017-5754 is the official reference to Meltdown. 
