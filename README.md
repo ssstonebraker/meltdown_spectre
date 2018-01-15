@@ -4,7 +4,7 @@
 CVE-2017-5754 is the official reference to Meltdown. 
 https://meltdownattack.com/meltdown.pdf
 
-# Specre
+# Spectre
 CVE-2017-5753 and CVE-2017-5715 are the official references to Spectre.
 https://spectreattack.com/spectre.pdf
 
